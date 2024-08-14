@@ -7,13 +7,12 @@ function generatePyramid() {
   const pyramidContainer = document.getElementById("pyramidContainer");
   pyramidContainer.innerHTML = "";
 
-  // Start from 1 and increment by 2 to ensure only odd-numbered rows
-  for (let i = 1; i <= rowCount *2; i += 2) {
+    for (let i = 1; i <= rowCount *2; i += 2) {
     const row = document.createElement("div");
     row.className = "pyramid-row";
     row.dataset.rowNumber = i;
 
-    // The number of buttons is equal to the current row number (which is odd)
+    
     for (let j = 1; j <= i; j++) {
       const button = document.createElement("button");
       button.className = "round-button";
