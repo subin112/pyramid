@@ -8,7 +8,7 @@ function generatePyramid() {
   pyramidContainer.innerHTML = "";
 
   // Start from 1 and increment by 2 to ensure only odd-numbered rows
-  for (let i = 1; i <= rowCount; i += 2) {
+  for (let i = 1; i <= rowCount *2; i += 2) {
     const row = document.createElement("div");
     row.className = "pyramid-row";
     row.dataset.rowNumber = i;
