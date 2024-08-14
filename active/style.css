@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100%;
+    background-color: goldenrod;
+}
+.main{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 10% auto;
+}
+
+.flex{
+    display: flex;
+    position: relative;
+  /* right: 0; */
+  left: 0;
+
+   }
+#rowCount{
+    padding: 13px 120px;
+    padding-left: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 1px;
+    border: 1px solid green;
+    font-size: 16px;
+}
+.flex button{
+    position: absolute;
+   
+    right: 0;
+    top: 0;
+    /* top: 2px; */
+    padding:  3px 10px;
+    border: none;
+    background-color: green;
+    color: #fff;
+    bottom: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+.starter{
+    padding: 10px;
+    border: 3px solid rgb(150, 221, 197) ;
+    background-color: transparent;
+    color: rgb(150, 221, 197);
+    font-size: 18px;
+    border-radius: 4px;
+    letter-spacing: normal;
+    cursor: pointer;
+}
+.stoper{
+     padding: 10px;
+    border: 2px solid red;
+    background-color: transparent;
+    color: red;
+    font-size: 18px;
+    border-radius: 4px;
+letter-spacing: normal;
+cursor: pointer;
+}
+#delay{
+    width: 100px;
+    padding-left: 5px;
+    height: 46px;
+    border: 1px solid #968a8a;
+    /* padding-right: 50px; */
+    width: 100%;
+   
+}
+.lex{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.rock{
+  color: green;
+    font-size: 19px;
+}
+
+.round-button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: lightgrey;
+    border: none;
+    margin: 10px;
+}
+.pyramid-row {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+.delay-input{
+    display: flex;
+    align-items: center;
+     height: 13%;
+}
+.pyramidContainer{
+    width: 100%;
+    max-width: 1300px;
+}

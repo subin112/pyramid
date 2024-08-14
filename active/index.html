@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>project</title>
+</head>
+<body>
+    
+    <div class="main">
+        <div class="lex">
+<div class="flex">
+<input type="number" id="rowCount" placeholder="Enter the number of rows:" min="1">
+<button onclick="generatePyramid()">Enter</button>
+</div>
+<div id="pyramidContainer"></div>
+
+<div class="buttons">
+    <button onclick="startBlink()" class="starter">Start</button>
+    <button onclick="stopBlink()" class="stoper">Stop</button>
+</div>
+</div>
+<div class="delay-input">
+    <label for="delay" class="rock">Delay:</label>
+    <input type="number" id="delay" min="100" maxlength="100" value="1000" placeholder="Enter milli seconds">
+</div>
+    </div>
+
+
+
+    <script src="node.js"></script>
+</body>
+</html>
